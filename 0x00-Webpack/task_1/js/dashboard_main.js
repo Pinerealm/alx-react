@@ -8,9 +8,11 @@ $(function() {
   $('body').append('<p id="count"></p>');
   $('body').append('<p>Copyright - ALX</p>');
 
+  let count = 0;
+
   const updateCounter = () => {
-    let count = parseInt($('#count').text()) || 0;
-    $('#count').text(`${count + 1} clicks on the button`);
+    count += 1;
+    $('#count').text(`${count} clicks on the button`);
   };
 
   $('button').on('click', _.debounce(updateCounter, 500));
