@@ -1,7 +1,9 @@
 #logo {
   width: 200px;
   height: 200px;
-  background: no-repeat center/contain url("../assets/holberton-logo.jpg");
+  background-image: url("../assets/holberton-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
 }
 
 #count {
