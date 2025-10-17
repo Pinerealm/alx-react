@@ -1,4 +1,6 @@
 node_modules
 main.js
 package-lock.json
-public/
+**/public/*.jpg
+
+*LICENSE.txt
